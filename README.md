@@ -6,10 +6,10 @@ Java와 Spring Boot를 활용해 다양한 웹 애플리케이션을 개발해�
 
 #### &nbsp;　[ Language ]
 
-&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java 17-FF160B?style=flat-square&logo=java&logoColor=white"/>
+&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java 17-FF160B?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=java&logoColor=white"/>
 
 #### &nbsp;　[ DB ]
-&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=sqlite&logoColor=white"/> 
 
 
 #### &nbsp;　[ Backend ]
@@ -18,6 +18,7 @@ Java와 Spring Boot를 활용해 다양한 웹 애플리케이션을 개발해�
 <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat&logo=springsecurity&logoColor=white&color=darkgreen"/>
 <img src="https://img.shields.io/badge/JPA-088142?style=flat-square&logo=jpa&logoColor=white"/>
 <img src="https://img.shields.io/badge/Querydsl-black?style=flat-square&logo=querydsl&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=querydsl&logoColor=white"/>
 
 
 #### &nbsp;　[ Frontend ]
@@ -31,11 +32,11 @@ Java와 Spring Boot를 활용해 다양한 웹 애플리케이션을 개발해�
 
 
 #### &nbsp;　[ Infra ]
-&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/AWS-569A31?style=flat-square&logo=amazon s3&logoColor=white"/>
+&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
 #### &nbsp;　[ Etc... ]
 
-&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
 

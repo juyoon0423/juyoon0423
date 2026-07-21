@@ -1,11 +1,5 @@
-# 👋 안녕하세요, 백엔드 개발자 박주윤입니다!
+# 안녕하세요, 백엔드 개발자 박주윤입니다!
 
-> **"기술을 넘어 사용자 경험과 비즈니스 가치를 고민하는 프로덕트 엔지니어를 꿈꿉니다."**
-
-Java와 Spring Boot를 기반으로 견고한 백엔드 시스템을 설계하고 구현합니다. 
-최근에는 단순한 API 제공을 넘어 JWT/OAuth2를 활용한 인증·인가 최적화, WebSocket 기반 실시간 통신, 그리고 Next.js를 활용한 프론트엔드 연동까지 아우르며 프로덕트 전체의 완성도를 높이는 데 집중하고 있습니다. 안정적인 서비스 운영을 위한 클라우드 인프라와 데이터베이스 설계에도 깊은 관심을 가지고 있습니다.
-
-<br/>
 
 ## 👩🏻‍💻 Tech Stack
 
@@ -27,19 +21,3 @@ Java와 Spring Boot를 기반으로 견고한 백엔드 시스템을 설계하�
 ### 🛠️ Tools & Collaboration
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
 
-<br/>
-
-## 🏃‍♂️ Experience & Education
-
-- **컴퓨터공학과 (Computer Science)** | 4학년 재학 중
-- **백엔드 개발 인턴십 (Shining Lion)** | 2024.10 ~ 2025.01 (4개월)
-- **백엔드 개발 부트캠프 (멋쟁이사자처럼)** | 2024.01 ~ 2024.06 (6개월)
-
-## 📜 Certifications
-- **SQL 개발자 (SQLD)**
-- **정보처리기사** (필기 합격, 실기 진행 중)
-
-<br/>
-
----
-⭐️ *Let's connect and build something awesome together!*

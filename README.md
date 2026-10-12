@@ -19,7 +19,7 @@
 - 키워드(BM25)·의미(벡터) 하이브리드 검색 설계, 벡터 인덱스(HNSW)로 **조회 59배 단축(738ms → 12ms)**
 - Nginx Blue-Green 무중단 배포 구성, 전환 중 400회 요청 모두 정상 응답 검증
 
-🔗 Repository (공개 준비 중)
+🔗 [Repository](https://github.com/juyoon0423/insight-stock)
 
 ### Campus Market — 대학생 전용 교내 중고거래 서비스
 `2026.04 – 2026.05` · 개인 프로젝트 · Spring Boot · MySQL · Redis · WebSocket(STOMP) · Next.js

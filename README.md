@@ -5,7 +5,6 @@ Java와 Spring Boot로 공시 약 3,700건을 근거로 답하는 RAG 서비스 
 가설이 틀린 결과도 기록해 다음 판단의 근거로 씁니다.
 
 - Email: juyoon0423@daum.net
-- Live: [InsightStock](https://frontend-steel-omega-0zye89ut4w.vercel.app) (면접 기간 중 운영)
 
 <br>
 
@@ -19,11 +18,13 @@ Java와 Spring Boot로 공시 약 3,700건을 근거로 답하는 RAG 서비스 
 
 **Stack** Spring Boot, Spring Security, PostgreSQL(pgvector), Elasticsearch(Nori), OpenAI API, Next.js, AWS EC2, Nginx
 
+<img src="https://raw.githubusercontent.com/juyoon0423/insight-stock/main/docs/images/frontend/after/answer-q6-desktop.png" alt="질문에 대한 답변 본문에 출처 번호가 붙고, 오른쪽에 근거 공시 3건과 DART 원문 링크가 나열된 InsightStock 답변 화면" width="720">
+
 - AI 답변 시, 모델이 출처를 지어낼 위험을 번호 인용과 서버의 DART 원문 연결로 막아 26문항 평가에서 답 없는 질문 8/8 거절, 근거 없는 수치 0개 확인
 - 검색 전략 설계 시, "하이브리드가 키워드보다 낫다"는 가정을 평가 세트 18문항으로 측정해 한국어 공시에서는 키워드 단독을 넘지 못함을 확인
-- 인덱스 점검 시, EXPLAIN ANALYZE로 실제 쿼리를 측정해 HNSW는 유지(738ms → 12ms), 쓰이지 않던 pg_trgm은 제거
+- 인덱스 점검 시, EXPLAIN ANALYZE로 실제 쿼리를 측정해 Seq Scan 738.9ms 대비 12.6ms인 HNSW는 유지, 강제로 써도 Seq Scan보다 약 7배 느린 pg_trgm(214.7ms vs 28.0ms)은 제거
 - 검색 API 부하 테스트 시, 처리량 정체 원인을 서버 로그로 커넥션풀과 스레드풀에서 찾아 성공률 16.0% → 94.8% 개선 (로컬 k6, 20 → 100 VU)
-- Blue-Green 전환 시, 두 인스턴스가 DB 연결을 가득 채우는 문제를 HikariCP minimum-idle 조정으로 해결해 전환 구간 연결 100개 → 21개 감소, 전환 2회 모두 요청 400회 전부 200 응답
+- Blue-Green 전환 시, 두 인스턴스가 DB 연결을 가득 채우는 문제를 HikariCP minimum-idle 조정으로 해결해 전환 구간 연결 100개 → 21개 감소 (로컬 재현), EC2 전환 2회 모두 요청 400회 전부 200 응답
 - 임베딩 시, 1.1억 토큰을 호출 전 로컬 토크나이저로 계산해 비용 $2.23 추정, 분당 토큰 한도에 맞춘 요청 간격과 재시도로 429 에러 3,235건 → 0건
 
 [Repository](https://github.com/juyoon0423/insight-stock)

@@ -37,6 +37,8 @@ Java와 Spring Boot로 공시 약 3,700건을 근거로 답하는 RAG 서비스 
 
 **Stack** Spring Boot, JPA, QueryDSL, MySQL, Redis, WebSocket(STOMP), Next.js
 
+<img src="https://raw.githubusercontent.com/juyoon0423/campus-market-app/main/docs/images/redesign/home-after.jpg" alt="검색창과 카테고리 탭 아래에 상품 사진, 제목, 가격, 거래 장소가 4열로 나열된 Campus Market 메인 화면" width="720">
+
 - 거래완료 동시 요청 시, 서로 다른 구매자가 모두 성공해 거래 상대가 바뀌는 문제를 비관적 락과 상태 검증으로 해결해 2건 중 정확히 1건만 성공
 - 좋아요 동시 요청 시, 20건 중 17~18건이 InnoDB 데드락으로 실패하는 문제를 데드락 포함 재시도와 유니크 제약으로 개선해 좋아요 수와 실제 저장 건수 일치
 - 상품 동시 조회 시, 조회수와 좋아요가 같은 버전 필드를 공유해 생긴 충돌을 원자적 UPDATE 분리로 해결해 100건 중 실패 93~94건 → 0건

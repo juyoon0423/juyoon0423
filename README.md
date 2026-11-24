@@ -32,3 +32,4 @@ Java, Spring Boot, JPA, QueryDSL, MySQL, PostgreSQL, Redis, Elasticsearch, Docke
 
 - 상지대학교 컴퓨터공학과 (2027.02 졸업예정)
 - 정보처리기사, SQLD
+- 멋쟁이사자처럼 백엔드 부트캠프 수료 2023.01 ~ 2023.06 (6개월)
